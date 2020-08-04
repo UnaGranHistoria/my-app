@@ -1,0 +1,35 @@
+.contenedor {
+    height: 100vh;
+    background-color: red;
+    color: #293040;
+}
+
+.sidebar {
+    height: 100vh;
+}
+
+.body {
+    height: 100vh;
+    background-color: #ebeef3;
+}
+
+.badge {
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+button {
+    background-color: #293040;
+}
+
+input:focus, input.form-control:focus, button.btn:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.tareas h4 {
+    cursor: pointer;
+}
